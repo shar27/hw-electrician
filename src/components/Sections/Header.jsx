@@ -12,9 +12,9 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">We are a Property Investments & Maintenance Company.</h1>
+          <h1 className="extraBold font60">High Wycombe Electrician</h1>
           <HeaderP className="font13 semiBold">
-          Looking for reliable property maintenance services in the UK? 
+          Looking for an Electrician in High Wycombe? 
           Our experienced team offers comprehensive solutions for residential and commercial properties, 
           including building maintenance, repairs, and management. Trust us for efficient and affordable services tailored to landlords and property owners. 
           Contact us for emergency assistance and ensure your property's upkeep with our expert solutions.

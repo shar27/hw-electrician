@@ -15,6 +15,7 @@ import AddImage4 from "../../assets/img/add/4.png";
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import CleaningServicesOutlinedIcon from '@mui/icons-material/CleaningServicesOutlined';
 import ConstructionIcon from '@mui/icons-material/Construction';
+import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import FormatPaintOutlinedIcon from '@mui/icons-material/FormatPaintOutlined';
 import HouseOutlinedIcon from '@mui/icons-material/HouseOutlined';
 
@@ -82,6 +83,17 @@ export default function Services() {
                 />
               </HandyManIcon>
               <h4>Handy man repairs</h4>
+            </ServiceBoxWrapper>
+            <ServiceBoxWrapper>
+              <HandyManIcon>
+                <LightbulbIcon
+                sx={{
+                  width:100,
+                  height:100,
+                }}
+                />
+              </HandyManIcon>
+              <h4>Electrican</h4>
             </ServiceBoxWrapper>
             
             <ServiceBoxWrapper>
