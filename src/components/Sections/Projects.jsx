@@ -10,10 +10,11 @@ import livingroom from '../../assets/img/projects/livingroom.jpg'
 import livingroom2 from '../../assets/img/projects/livingroom2.jpg'
 import room from '../../assets/img/projects/room.jpg'
 import oven from '../../assets/img/projects/OVEN-NEW.jpeg'
+import light from '../../assets/img/projects/lights.jpg'
 import fridge from '../../assets/img/projects/fridgereplace.jpg'
 
 export default function Landlords() {
-  const images = [bathroomtiles, bathroom,bathroomtiles, bathroomtiles2,livingroom,livingroom2,fridge, oven, room];
+  const images = [light, bathroomtiles, bathroom,bathroomtiles, bathroomtiles2,livingroom,livingroom2,fridge, oven, room];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -44,6 +45,7 @@ export default function Landlords() {
               <BenefitItem>✔ Bathroom fitting</BenefitItem>
               <BenefitItem>✔ Waste/Furntiure removal</BenefitItem>
               <BenefitItem>✔ Handyman repair</BenefitItem>
+              <BenefitItem>✔ Electrical repair</BenefitItem>
             </BenefitsList>
           </ContentSection>
 
